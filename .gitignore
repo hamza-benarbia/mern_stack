@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -18,6 +19,23 @@
 .env.test.local
 .env.production.local
 
+=======
+# Node modules for both frontend and backend
+node_modules/
+
+# Environment files
+.env
+
+# Build folders
+/frontend/frontend/build/
+/backend/dist/
+
+# Others (Add as needed)
+.DS_Store
+.cache
+logs/
+*.log
+>>>>>>> 530ea590263078647ab742cb7cfd151600b328e5
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
